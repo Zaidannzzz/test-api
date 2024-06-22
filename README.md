@@ -34,7 +34,7 @@
 
 ## Deployment
 
-1. Deploy the application to a cloud provider like Railway.app.
+1. Deploy the application to a cloud provider like Vercel.app.
 2. Configure the necessary environment variables in the cloud provider.
 3. Deploy the application and ensure it is running correctly.
 
