@@ -30,7 +30,7 @@ const register = async (req, res) => {
   const newUser = await userModel.createUser({
     first_name,
     last_name,
-    checkedEmail,
+    email,
     password: hashedPassword,
   });
 
