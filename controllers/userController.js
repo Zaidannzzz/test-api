@@ -1,4 +1,4 @@
-const userModel = require("../models/usermodel");
+const userModel = require("../models/userModel");
 
 const getProfile = async (req, res) => {
   const user = await userModel.getUserByEmail(req.user.email);
